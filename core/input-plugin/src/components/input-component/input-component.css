@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+input{
+  border: 2px solid rgb(209, 208, 208);
+  border-radius: 5px;
+  outline: none;
+  padding: .5rem;
+  transition: .2s linear;
+  font-size: 1.1rem;
+}
+
+input:focus{
+  border: 2px solid  #1fb6ff;
+}
